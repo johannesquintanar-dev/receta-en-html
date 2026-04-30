@@ -1,0 +1,78 @@
+/* Fondo general */
+body {
+  background-color: #fdf6f0; /* crema suave */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3e2c23;
+}
+
+/* Contenedor */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header_title {
+  color: #5a3e36; /* café chocolate */
+}
+
+/* Tarjetas */
+.card {
+  background-color: #fff8f3;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Tarjeta destacada */
+.card-highlight {
+  background-color: #fceee3;
+  border: 2px solid #e6b89c;
+}
+
+/* Títulos */
+.card_title {
+  color: #6b3e26;
+  border-bottom: 2px solid #e6b89c;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Lista */
+ul li {
+  margin-bottom: 6px;
+}
+
+/* Preparación */
+.main p {
+  margin: 8px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #5a3e36;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.ingredientes-img {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredientes-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover; /* recorta sin deformar */
+  border-radius: 10px;
+  border: 2px solid #e6b89c;
+}
